@@ -23,6 +23,14 @@
             "episodes": "120",
             "studio": "IDK some cool studio",
             "year": "1993"
+        },
+        {
+            "id": "4",
+            "title": "Vindland Saga",
+            "description:": "Vikings and a personal improvement",
+            "episodes": "50",
+            "studio": "WIT Studio",
+            "year": "2020"
         }
     ]
 }
