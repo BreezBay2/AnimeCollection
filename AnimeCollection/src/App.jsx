@@ -1,4 +1,14 @@
+import AnimeCollection from "./components/AnimeCollection";
+import Navbar from "./components/Navbar";
+import ViewCollection from "./components/ViewCollection";
+
 const App = () => {
-    return <div className="text-5xl">Hello</div>;
+    return (
+        <>
+            <Navbar />
+            <AnimeCollection />
+            <ViewCollection />
+        </>
+    );
 };
 export default App;
