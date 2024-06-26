@@ -4,7 +4,7 @@ import ViewCollection from "../components/ViewCollection";
 const HomePage = () => {
     return (
         <>
-            <AnimeCollection />
+            <AnimeCollection isHome={true} />
             <ViewCollection />
         </>
     );

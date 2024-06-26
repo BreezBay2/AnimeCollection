@@ -31,6 +31,30 @@
             "episodes": "50",
             "studio": "WIT Studio",
             "year": "2020"
+        },
+        {
+            "id": "5",
+            "title": "Mob Psycho 100",
+            "description:": "Vikings and a personal improvement",
+            "episodes": "50",
+            "studio": "WIT Studio",
+            "year": "2020"
+        },
+        {
+            "id": "6",
+            "title": "Naruto",
+            "description:": "Vikings and a personal improvement",
+            "episodes": "50",
+            "studio": "WIT Studio",
+            "year": "2020"
+        },
+        {
+            "id": "7",
+            "title": "Jujutsu Kaisen",
+            "description:": "Vikings and a personal improvement",
+            "episodes": "50",
+            "studio": "WIT Studio",
+            "year": "2020"
         }
     ]
 }
