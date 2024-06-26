@@ -7,18 +7,18 @@ import {
 import AnimeCollection from "./components/AnimeCollection";
 import Navbar from "./components/Navbar";
 import ViewCollection from "./components/ViewCollection";
-
-const router = createBrowserRouter(
-    createRoutesFromElements(<Route index element={<h1>App</h1>} />)
-);
+import MainLayout from "./layouts/MainLayout";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
-    return (
-        <>
-            <Navbar />
-            <AnimeCollection />
-            <ViewCollection />
-        </>
+    const router = createBrowserRouter(
+        createRoutesFromElements(
+            <Route path="/" element={<MainLayout />}>
+                <Route index element={<HomePage />} />
+            </Route>
+        )
     );
+
+    return <RouterProvider router={router} />;
 };
 export default App;
