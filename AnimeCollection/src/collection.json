@@ -1,0 +1,28 @@
+{
+    "collection": [
+        {
+            "id": "1",
+            "title": "Attack on Titan",
+            "description:": "Something about some big ass dudes attacking humanity.",
+            "episodes": "90",
+            "studio": "WIT Studio",
+            "year": "2013"
+        },
+        {
+            "id": "2",
+            "title": "One Piece",
+            "description:": "Pirates on a boat",
+            "episodes": "1100",
+            "studio": "TOEI Animation",
+            "year": "1999"
+        },
+        {
+            "id": "3",
+            "title": "Yu Yu Hakusho",
+            "description:": "Ghosts and a spirit gun PEW PEW",
+            "episodes": "120",
+            "studio": "IDK some cool studio",
+            "year": "1993"
+        }
+    ]
+}
